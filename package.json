@@ -1,0 +1,26 @@
+{
+  "name": "aaryanrr.github.io",
+  "version": "1.0.0",
+  "description": "Personal Website",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "npx tailwindcss-cli@latest build ./src/Index.css -o ./dist/Index-build.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaryanrr/aaryanrr.github.io.git"
+  },
+  "keywords": [
+    "aaryanrr",
+    "aaryanrr site"
+  ],
+  "author": "Aryan Rai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aaryanrr/aaryanrr.github.io/issues"
+  },
+  "homepage": "https://github.com/aaryanrr/aaryanrr.github.io#readme",
+  "dependencies": {
+    "tailwindcss": "^2.1.4"
+  }
+}
