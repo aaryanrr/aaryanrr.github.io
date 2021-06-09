@@ -4,7 +4,10 @@
   "description": "Personal Website",
   "main": "index.js",
   "scripts": {
-    "build-css": "npx tailwindcss-cli@latest build ./src/Index.css -o ./dist/Index-build.css"
+    "build-css": "npx tailwindcss-cli@latest build ./style.css -o ./build/tailwind.css",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
   },
   "repository": {
     "type": "git",
@@ -22,5 +25,8 @@
   "homepage": "https://github.com/aaryanrr/aaryanrr.github.io#readme",
   "dependencies": {
     "tailwindcss": "^2.1.4"
+  },
+  "devDependencies": {
+    "vite": "^2.3.7"
   }
 }
