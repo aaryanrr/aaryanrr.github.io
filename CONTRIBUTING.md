@@ -32,6 +32,5 @@
 
 1. *Fork the repository.*
 2. *Clone it to your local machine to work with the Project.*
-3. *Run `npm install` to install all the project dependencies.*
-4. *Open the Project in the Editor of your choice.*
-5. *Congratulations, you are now ready to Contribute.* 🎉
+3. *Open the Project in the Editor of your choice.*
+4. *Congratulations, you are now ready to Contribute.* 🎉
