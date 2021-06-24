@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+/* Background Gradient*/
+
+body {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  font-family: "Bebas Neue", cursive;
+  color: white;
+  font-size: 180px;
+  margin: 0.4rem;
+  padding-top: 10.8rem;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.twitter,
+.github {
+  padding: 10px;
+}
+
+.twitter:hover,
+.github:hover,
+.title:hover {
+  transform: scale(1.1);
+  transition: all 800ms;
+}
+
+/* Gradient  */
+
+@keyframes gradient {
+  0% {
+    background-position: 10% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+.copyright {
+  font-family: "Bebas Neue", cursive;
+  color: white;
+  font-size: 30px;
+  padding-top: 8rem;
+}

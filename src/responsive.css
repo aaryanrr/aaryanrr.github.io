@@ -1,0 +1,17 @@
+@media screen and (max-width: 500px) {
+  .title {
+    font-size: 100px;
+    margin: 0.5rem;
+  }
+
+  .copyright {
+    font-size: 25px;
+    padding-top: 16rem;
+  }
+}
+
+@media screen and (max-width: 590px) and (min-width: 500px) {
+  .title {
+    font-size: 150px;
+  }
+}
