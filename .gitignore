@@ -116,5 +116,8 @@ out
 .yarn/install-state.gz
 .pnp.*
 
-#vscode
+# vscode
 .vscode
+
+# intellij
+.idea
