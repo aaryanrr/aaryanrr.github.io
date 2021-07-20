@@ -2,7 +2,7 @@ function logVisitor() {
     console.log("Welcome to the site\nClick anywhere to change the Gradient!");
 }
 
-var GradientChanged = 0;
+let GradientChanged = 0;
 const gradients = [
     "linear-gradient(-10deg, #d72631, #a2d5c6, #077b8a, #5c3c92)",
     "linear-gradient(-20deg, #e2d810, #d9138a, #12a4d9, #322e2f)",
@@ -19,10 +19,10 @@ const gradients = [
 ];
 
 function changeGradient() {
-    element = document.getElementById("gradient");
+    let element = document.getElementById("gradient");
     element.style.background = gradients[GradientChanged];
     element.style.backgroundSize = "400% 400%";
-    if (GradientChanged == gradients.length) {
+    if (GradientChanged === gradients.length) {
         GradientChanged = 0;
         // console.log("Rolling back to 0");
     } else {
