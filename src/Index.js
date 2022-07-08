@@ -24,7 +24,6 @@ function changeGradient() {
     element.style.backgroundSize = "400% 400%";
     if (GradientChanged === gradients.length) {
         GradientChanged = 0;
-        // console.log("Rolling back to 0");
     } else {
         GradientChanged++;
     }
