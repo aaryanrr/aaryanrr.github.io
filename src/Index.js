@@ -16,6 +16,7 @@ const gradients = [
     "linear-gradient(-100deg, #d71b3b, #e8d71e, #16acea, #4203c9)",
     "linear-gradient(-110deg, #1fbfb8, #05716c, #1978a5, #031163)",
     "linear-gradient(-120deg, #375e97, #fb6542, #ffbb00, #3f681c)",
+    "linear-gradient(-130deg)",
 ];
 
 function changeGradient() {
