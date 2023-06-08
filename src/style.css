@@ -28,13 +28,19 @@ body {
 }
 
 .twitter,
-.github {
+.github,
+.linkedin {
     padding: 10px;
+}
+
+.linkedin {
+    padding-left: 15px;
 }
 
 .twitter:hover,
 .github:hover,
-.title:hover {
+.title:hover,
+.linkedin:hover {
     transform: scale(1.1);
     transition: all 800ms;
 }
