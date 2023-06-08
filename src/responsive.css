@@ -21,4 +21,8 @@
         display: flex;
         scale: 0.5%;
     }
+
+    .twitter {
+        padding-left: 5px;
+    }
 }
