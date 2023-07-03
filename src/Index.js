@@ -2,6 +2,8 @@ function logVisitor() {
     console.log("Welcome to the site\nClick anywhere to change the Gradient!");
 }
 
+// TODO: Create a Random Color Generator to Randomly generate color hex codes
+
 let GradientChanged = 0;
 const gradients = [
     "linear-gradient(-10deg, #d72631, #a2d5c6, #077b8a, #5c3c92)",
